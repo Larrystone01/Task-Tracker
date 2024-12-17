@@ -1,0 +1,29 @@
+.task-body {
+  margin: 0 auto;
+  border: 2px solid #333;
+  padding: 20px 40px;
+  width: 700px;
+}
+
+.group {
+  position: relative;
+}
+
+.group button {
+  position: absolute;
+  right: 4px;
+  top: 3px;
+}
+
+.group input::placeholder {
+  color: grey;
+}
+
+.group input {
+  border: 2px solid #333;
+  height: 45px;
+}
+
+.l-heading {
+  margin: 30px 0;
+}
