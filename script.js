@@ -24,9 +24,9 @@ const deleteTask = (e) => {
 };
 
 const completedTask = (e) => {
+  const li = e.target.parentElement;
+  const taskText = li.querySelector(".task-text");
   if (e.target.type === "checkbox") {
-    const li = e.target.parentElement;
-    const taskText = li.querySelector(".task-text");
     if (e.target.checked) {
       taskText.style.textDecoration = "line-through";
       taskText.style.color = "grey";
